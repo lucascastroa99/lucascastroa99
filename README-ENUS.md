@@ -97,21 +97,9 @@ Score: 78.3% of Accuracy
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lucascastroa99&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=1eb955&icon_color=1eb955&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lucascastroa99&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=1eb955&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=lucascastroa99&theme=radical&hide_border=true&background=0D1117&ring=1eb955&fire=1eb955&currStreakLabel=1eb955" alt="GitHub Streak" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=lucascastroa99&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7&title_color=1eb955" alt="GitHub Trophies" />
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lucascastroa99&theme=dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lucascastroa99&theme=dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lucascastroa99&theme=dark)
 
 </div>
 
