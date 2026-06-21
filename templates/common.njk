@@ -3,13 +3,13 @@
 {%- macro languageSwitcher(lang, personal) -%}
 {%- if lang == "pt" -%}
 <div align="right">
-  <a href="./README-EN.md">
+  <a href="./README-EN.md" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/us.svg" width="25" alt="English">
   </a>
 </div>
 {%- else -%}
 <div align="right">
-  <a href="https://github.com/{{ personal.github }}">
+  <a href="https://github.com/{{ personal.github }}" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/br.svg" width="25" alt="Portugues">
   </a>
 </div>
@@ -27,12 +27,24 @@
 
 **{{ personal.position[lang] }}**
 
-[![City](https://img.shields.io/badge/{{ personal.location[lang] | replace(" ", "_") }}-{{ common.badges.city.color }}?style=for-the-badge&logo={{ common.badges.city.logo }}&logoColor=white)](https://www.google.com/maps/search/{{ personal.location[lang] | replace(" ", "+") }})
-[![Phone](https://img.shields.io/badge/{{ "Telefone" if lang == "pt" else "Phone" }}-{{ common.badges.phone.color }}?style=for-the-badge&logo={{ common.badges.phone.logo }}&logoColor=white)](tel:{{ personal.phone }})
-[![Email](https://img.shields.io/badge/Email-{{ common.badges.email.color }}?style=for-the-badge&logo={{ common.badges.email.logo }}&logoColor=white)](mailto:{{ personal.email }})
-[![Portfolio](https://img.shields.io/badge/{{ "Portf%C3%B3lio" if lang == "pt" else "Portfolio" }}-{{ common.badges.portfolio.color }}?style=for-the-badge&logo={{ common.badges.portfolio.logo }}&logoColor=white)]({{ personal.website }})
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-{{ common.badges.linkedin.color }}?style=for-the-badge&logo={{ common.badges.linkedin.logo }}&logoColor=white)](https://www.linkedin.com/in/{{ personal.linkedin }})
-[![Resume](https://img.shields.io/badge/{{ "Curr%C3%ADculo" if lang == "pt" else "Resume" }}-{{ common.badges.resume.color }}?style=for-the-badge&logo={{ common.badges.resume.logo }}&logoColor=black)](https://raw.githubusercontent.com/lucascastroa99/curriculum-vitae/main/output/{{ "LucasCastro_DesenvolvedorFullStack_Curriculo" if lang == "pt" else "LucasCastro_FullStackDeveloper_Resume" }}.pdf)
+<a href="https://www.google.com/maps/search/{{ personal.location[lang] | replace(" ", "+") }}" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/{{ personal.location[lang] | replace(" ", "_") }}-{{ common.badges.city.color }}?style=for-the-badge&logo={{ common.badges.city.logo }}&logoColor=white" alt="{{ personal.location[lang] }}">
+</a>
+<a href="tel:{{ personal.phone }}" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/{{ "Telefone" if lang == "pt" else "Phone" }}-{{ common.badges.phone.color }}?style=for-the-badge&logo={{ common.badges.phone.logo }}&logoColor=white" alt="{{ "Telefone" if lang == "pt" else "Phone" }}">
+</a>
+<a href="mailto:{{ personal.email }}" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Email-{{ common.badges.email.color }}?style=for-the-badge&logo={{ common.badges.email.logo }}&logoColor=white" alt="Email">
+</a>
+<a href="{{ personal.website }}" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/{{ "Portf%C3%B3lio" if lang == "pt" else "Portfolio" }}-{{ common.badges.portfolio.color }}?style=for-the-badge&logo={{ common.badges.portfolio.logo }}&logoColor=white" alt="{{ "Portf%C3%B3lio" if lang == "pt" else "Portfolio" }}">
+</a>
+<a href="https://www.linkedin.com/in/{{ personal.linkedin }}" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/LinkedIn-{{ common.badges.linkedin.color }}?style=for-the-badge&logo={{ common.badges.linkedin.logo }}&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://raw.githubusercontent.com/lucascastroa99/curriculum-vitae/main/output/{{ "LucasCastro_DesenvolvedorFullStack_Curriculo" if lang == "pt" else "LucasCastro_FullStackDeveloper_Resume" }}.pdf" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/{{ "Curr%C3%ADculo" if lang == "pt" else "Resume" }}-{{ common.badges.resume.color }}?style=for-the-badge&logo={{ common.badges.resume.logo }}&logoColor=black" alt="{{ "Curr%C3%ADculo" if lang == "pt" else "Resume" }}">
+</a>
 
 {{ personal.location[lang] }} &nbsp;•&nbsp; {{ personal.phone | phone(lang) }}  
 {{ personal.website | replace("https://", "") }} &nbsp;•&nbsp; {{ personal.email }} &nbsp;•&nbsp; linkedin.com/in/{{ personal.linkedin }}
