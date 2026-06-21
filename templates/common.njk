@@ -1,0 +1,128 @@
+{# common.njk — Shared macros for both README templates #}
+
+{%- macro languageSwitcher(lang, personal) -%}
+{%- if lang == "pt" -%}
+<div align="right">
+  <a href="./README-EN.md">
+    <img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/us.svg" width="25" alt="English">
+  </a>
+</div>
+{%- else -%}
+<div align="right">
+  <a href="https://github.com/{{ personal.github }}">
+    <img src="https://raw.githubusercontent.com/HatScripts/circle-flags/gh-pages/flags/br.svg" width="25" alt="Portugues">
+  </a>
+</div>
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro header(lang, personal, common) -%}
+<div align="center">
+
+<img src="./images/personal-memoji.png" width="500" alt="Lucas Castro Memoji">
+
+![Visitor Count](https://komarev.com/ghpvc/?username={{ personal.github }}&color=1eb955&style=for-the-badge&label={{ "VISITANTES" if lang == "pt" else "VISITORS" }})
+
+<h1 align="center" style="border-bottom: none; margin: 0">{{ personal.firstname }} {{ personal.lastname }}</h1>
+
+**{{ personal.position[lang] }}**
+
+[![City](https://img.shields.io/badge/{{ personal.location[lang] | replace(" ", "_") }}-{{ common.badges.city.color }}?style=for-the-badge&logo={{ common.badges.city.logo }}&logoColor=white)](https://www.google.com/maps/search/{{ personal.location[lang] | replace(" ", "+") }})
+[![Phone](https://img.shields.io/badge/{{ "Telefone" if lang == "pt" else "Phone" }}-{{ common.badges.phone.color }}?style=for-the-badge&logo={{ common.badges.phone.logo }}&logoColor=white)](tel:{{ personal.phone }})
+[![Email](https://img.shields.io/badge/Email-{{ common.badges.email.color }}?style=for-the-badge&logo={{ common.badges.email.logo }}&logoColor=white)](mailto:{{ personal.email }})
+[![Portfolio](https://img.shields.io/badge/{{ "Portf%C3%B3lio" if lang == "pt" else "Portfolio" }}-{{ common.badges.portfolio.color }}?style=for-the-badge&logo={{ common.badges.portfolio.logo }}&logoColor=white)]({{ personal.website }})
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-{{ common.badges.linkedin.color }}?style=for-the-badge&logo={{ common.badges.linkedin.logo }}&logoColor=white)](https://www.linkedin.com/in/{{ personal.linkedin }})
+[![Resume](https://img.shields.io/badge/{{ "Curr%C3%ADculo" if lang == "pt" else "Resume" }}-{{ common.badges.resume.color }}?style=for-the-badge&logo={{ common.badges.resume.logo }}&logoColor=black)](https://raw.githubusercontent.com/lucascastroa99/curriculum-vitae/main/output/{{ "LucasCastro_DesenvolvedorFullStack_Curriculo" if lang == "pt" else "LucasCastro_FullStackDeveloper_Resume" }}.pdf)
+
+{{ personal.location[lang] }} &nbsp;•&nbsp; {{ personal.phone | phone(lang) }}  
+{{ personal.website | replace("https://", "") }} &nbsp;•&nbsp; {{ personal.email }} &nbsp;•&nbsp; linkedin.com/in/{{ personal.linkedin }}
+
+</div>
+{%- endmacro -%}
+
+{%- macro aboutMe(lang, resume) -%}
+{{ resume.summary[lang] }}
+{%- endmacro -%}
+
+{%- macro techIcons(lang, common, resume) -%}
+{%- set skillKeys = ["programming_languages", "libraries_frameworks", "databases", "development_tools", "testing_automation", "infrastructure_devops"] -%}
+{%- for key in skillKeys %}
+### {{ resume.skills[loop.index0].label[lang] }}
+<div align="left">
+  <img src="https://skills.syvixor.com/api/icons?i={{ common.skills[key] }}" alt="{{ resume.skills[loop.index0].label[lang] }}" />
+</div>
+{% endfor -%}
+{%- endmacro -%}
+
+{%- macro skillsTable(lang, skills) -%}
+| {{ "Categoria" if lang == "pt" else "Category" }} | {{ "Tecnologias" if lang == "pt" else "Technologies" }} |
+|-----------|-------------|
+{%- for skill in skills %}
+| **{{ skill.label[lang] }}** | {{ skill.details | skillDetails(lang) }} |
+{%- endfor -%}
+{%- endmacro -%}
+
+{%- macro experience(lang, experiences) -%}
+{% for job in experiences %}
+### {{ job.position[lang] }}
+**{{ job.company }}** | {{ job.location[lang] }}  
+*{{ job.date.start | formatDate(lang) }} – {{ job.date.end | formatDate(lang) }}*
+
+{%- for highlight in job.highlights[lang] %}
+- {{ highlight }}
+{%- endfor %}
+
+{% endfor -%}
+{%- endmacro -%}
+
+{%- macro education(lang, educations) -%}
+{% for edu in educations %}
+**{{ edu.area[lang] }}** | {{ edu.institution[lang] }}  
+*{{ edu.location[lang] }} | {{ edu.date.start | split("-") | first }} - {{ edu.date.end | split("-") | first }}*
+{% endfor -%}
+{%- endmacro -%}
+
+{%- macro certifications(lang, certs) -%}
+{% for cert in certs %}
+**{{ cert.area }}** | {{ cert.institution }}  
+*{{ cert.date.start | formatDate(lang) }}*  
+{{ cert.score[lang] }} | [{{ "Ver Certificado" if lang == "pt" else "View Certificate" }}]({{ cert.url }})
+{% endfor -%}
+{%- endmacro -%}
+
+{%- macro projects(lang, projectList) -%}
+{% for project in projectList %}
+### {{ project.name }}
+*{{ project.date.start | formatDate(lang) }} – {{ project.date.end | formatDate(lang) }}*
+{%- for highlight in project.highlights[lang] %}
+- {{ highlight }}
+{%- endfor %}
+
+{% endfor -%}
+{%- endmacro -%}
+
+{%- macro githubStats(personal, common) -%}
+<div align="center">
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ personal.github }}&theme={{ common.github_stats.theme }})
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username={{ personal.github }}&theme={{ common.github_stats.theme }})
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username={{ personal.github }}&theme={{ common.github_stats.theme }})
+
+</div>
+{%- endmacro -%}
+
+{%- macro languages(lang, langsList) -%}
+{%- for langEntry in langsList %}
+- {{ "🇧🇷" if langEntry.label.en == "Portuguese" else "🇺🇸" }} **{{ langEntry.label[lang] }}** — {{ langEntry.level[lang] }}
+{%- endfor -%}
+{%- endmacro -%}
+
+{%- macro footer(lang) -%}
+---
+
+<div align="center">
+
+**{{ "Obrigado pela visita!" if lang == "pt" else "Thanks for visiting!" }}** 🚀
+
+</div>
+{%- endmacro -%}

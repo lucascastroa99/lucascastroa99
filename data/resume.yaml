@@ -1,0 +1,271 @@
+summary:
+  en: "Full Stack Developer with **4+ years of experience** building robust web applications using **React, Vue, and Angular**. Proficient in **Node.js, Python, and .NET**. Hands-on experience in **end-to-end project** execution, including requirements gathering, performance testing, CI/CD pipelines, proof of concept, and UX/UI optimization. Delivers high-impact solutions focused on **performance and client value**."
+  pt: "Desenvolvedor Full Stack com **mais de 4 anos de experiência** no desenvolvimento de aplicações web robustas usando **React, Vue e Angular**. Com conhecimento em **Node.js, Python e .NET**. Atuação em **projetos de ponta a ponta**, incluindo levantamento de requisitos, testes de desempenho, CI/CD, provas de conceito e otimização de UX/UI. Entrega de soluções de alto impacto com foco em **performance e valor para o cliente**."
+
+experience:
+  - company: "Marttech - Desenvolvimento de Software"
+    position:
+      en: "Front-end Developer (Mid-Level)"
+      pt: "Desenvolvedor Front-end Pleno"
+    date:
+      start: "2024-07"
+      end: "2025-08"
+    location:
+      en: "Toledo, PR, Brazil (Remote)"
+      pt: "Toledo, PR (Remoto)"
+    highlights:
+      en:
+        - "Gathered technical requirements from clients and documented system impacts."
+        - "Prioritized tasks and organized sprints in **Azure DevOps**."
+        - "Implemented user interfaces in **React.js** following usability guidelines."
+        - "Built reusable components with **Material UI**."
+        - "Optimized **MapBox** polygon and layer implementations, reducing load time by **80%** and memory usage from **6GB to 2GB**."
+        - "Refactored parts of the application architecture, addressing performance and usability issues."
+      pt:
+        - "Levantei requisitos técnicos junto ao cliente, documentei impactos no sistema."
+        - "Priorizei demandas e organizei sprints no **Azure DevOps**."
+        - "Implementei interfaces em **React.js** seguindo diretrizes de usabilidade."
+        - "Desenvolvi componentes reutilizáveis com **Material UI**."
+        - "Otimizei polígonos e camadas no **MapBox**, reduzindo tempo de carregamento em **80%** e uso de memória de **6GB para 2GB**."
+        - "Refatorei a arquitetura da aplicação, corrigindo problemas de desempenho e usabilidade."
+
+  - company: "IBrowse Consultoria e Informática"
+    position:
+      en: "Development Analyst (Mid-Level)"
+      pt: "Analista de Desenvolvimento Pleno"
+    date:
+      start: "2023-08"
+      end: "2024-01"
+    location:
+      en: "Porto Alegre, RS, Brazil (Remote)"
+      pt: "Porto Alegre, RS (Remoto)"
+    highlights:
+      en:
+        - "Supported internal and external teams in handling technical demands."
+        - "Developed and fixed features in **Angular** applications."
+        - "Defined architecture and design patterns for the application and new modules."
+        - "Configured **CI/CD** pipelines and managed **GitLab** repositories."
+        - "Created unit tests using Karma with **77%** overall code coverage."
+        - "Reviewed code and tracked deliveries in **ClickUp**, ensuring compliance with internal standards."
+      pt:
+        - "Apoiei equipes internas e externas no atendimento de demandas técnicas."
+        - "Desenvolvi e corrigi funcionalidades em aplicações **Angular**."
+        - "Defini arquitetura e padrões de design para a aplicação e novos módulos."
+        - "Configurei pipelines de **CI/CD** e administrei repositórios no **GitLab**."
+        - "Criei testes unitários usando Karma com **77%** de cobertura global de código."
+        - "Revisei código e acompanhei entregas no **ClickUp**, garantindo conformidade com os padrões internos."
+
+  - company: "INOVA - Polo de Inovação IFAM"
+    position:
+      en: "Front-end Angular Web Developer"
+      pt: "Desenvolvedor Web Front-end Angular"
+    date:
+      start: "2023-03"
+      end: "2023-07"
+    location:
+      en: "Manaus, AM, Brazil"
+      pt: "Manaus, AM"
+    highlights:
+      en:
+        - "Refactored outdated **Angular** pages and components."
+        - "Created new screens and flows to expand the application."
+        - "Fixed critical bugs reported by end users."
+        - "Mentored 3 students in technical activities, supervising deliveries and professional development."
+      pt:
+        - "Refatorei páginas e componentes **Angular** desatualizados."
+        - "Criei novas telas e fluxos para ampliar a aplicação."
+        - "Corrigi bugs críticos reportados pelos usuários finais."
+        - "Orientei 3 alunos em atividades técnicas, supervisionando entregas e capacitação profissional."
+
+  - company: "ClearSale"
+    position:
+      en: "Information Technology Analyst"
+      pt: "Analista de Tecnologia da Informação"
+    date:
+      start: "2022-01"
+      end: "2022-12"
+    location:
+      en: "São Paulo, SP, Brazil (Remote)"
+      pt: "São Paulo, SP (Remoto)"
+    highlights:
+      en:
+        - "Built interfaces and components in **Vue.js**."
+        - "Maintained and evolved features in **C#** and **jQuery**."
+        - "Modeled and managed data in **SQL Server**."
+        - "Documented application flows for development teams."
+        - "Analyzed production errors and reported moderate failures."
+        - "Developed **unit tests** to ensure code quality."
+      pt:
+        - "Criei interfaces e componentes em **Vue.js**."
+        - "Mantive e evoluí funcionalidades em **C#** e **jQuery**."
+        - "Modelei e gerenciei dados no **SQL Server**."
+        - "Documentei fluxos da aplicação para equipes de desenvolvimento."
+        - "Analisei erros em produção e reportei falhas moderadas."
+        - "Desenvolvi **testes unitários** para garantir qualidade do código."
+
+  - company: "INOVA - Polo de Inovação IFAM"
+    position:
+      en: "Front-end Angular Web Developer"
+      pt: "Desenvolvedor Web Front-end Angular"
+    date:
+      start: "2021-09"
+      end: "2022-03"
+    location:
+      en: "Manaus, AM, Brazil"
+      pt: "Manaus, AM"
+    highlights:
+      en:
+        - "Refactored outdated **Angular** pages and components."
+        - "Created new screens and flows to expand the application."
+        - "Fixed critical bugs reported by end users."
+        - "**Mentored 3 students** in technical activities, supervising deliveries and professional development."
+      pt:
+        - "Refatorei páginas e componentes **Angular** desatualizados."
+        - "Criei novas telas e fluxos para ampliar a aplicação."
+        - "Corrigi bugs críticos reportados pelos usuários finais."
+        - "**Orientei 3 alunos** em atividades técnicas, supervisionando entregas e capacitação profissional."
+
+  - company: "BeeApp"
+    position:
+      en: "Front-end Vue.js Developer"
+      pt: "Desenvolvedor Front-end Vue.js"
+    date:
+      start: "2021-10"
+      end: "2021-12"
+    location:
+      en: "Primavera do Leste, MT, Brazil (Remote)"
+      pt: "Primavera do Leste, MT (Remoto)"
+    highlights:
+      en:
+        - "Built modular **Vue.js** components with **Vuetify**."
+        - "Adapted pages for mobile devices."
+        - "Migrated legacy **PHP** pages to **Vue.js**."
+        - "Implemented server-side rendering with **Nuxt.js**, improving Lighthouse SEO score from **65 to 90+**."
+        - "Modeled front-end architecture."
+        - "Configured UI component libraries."
+      pt:
+        - "Criei componentes **Vue.js** modulares com **Vuetify**."
+        - "Adaptei páginas para dispositivos móveis."
+        - "Migrei páginas legadas em **PHP** para **Vue.js**."
+        - "Desenvolvi SSR com **Nuxt.js**, elevando o SEO Lighthouse de **65 para 90+**."
+        - "Modeleei a arquitetura de front-end."
+        - "Configurei bibliotecas de componentes de UI."
+
+  - company: "IFAM - Instituto Federal do Amazonas"
+    position:
+      en: "Laboratory Maintenance Technician"
+      pt: "Técnico de Manutenção em Laboratório"
+    date:
+      start: "2018-02"
+      end: "2018-05"
+    location:
+      en: "Coari, AM, Brazil"
+      pt: "Coari, AM"
+    highlights:
+      en:
+        - "Performed maintenance on computers, notebooks, and servers."
+        - "Configured computer networks and **Windows/Linux operating systems.**"
+        - "Installed software for academic activities."
+        - "Assisted in practical laboratory classes."
+        - "Organized and maintained **IT infrastructure.**"
+      pt:
+        - "Realizei manutenção de computadores, notebooks e servidores."
+        - "Configurei redes de computadores e **sistemas operacionais Windows/Linux.**"
+        - "Instalei softwares para atividades acadêmicas."
+        - "Apoiei aulas práticas em laboratório."
+        - "Organizei e mantive a **infraestrutura de TI.**"
+
+projects:
+  - name: "GitJobs"
+    highlights:
+      en:
+        - "Prototype job search platform integrating public data from GitHub repositories."
+      pt:
+        - "Protótipo de plataforma de busca de vagas de emprego, integrando dados públicos de repositórios do GitHub."
+    date:
+      start: "2021-07"
+      end: "2021-08"
+
+education:
+  - institution:
+      en: "Federal Institute of Amazonas"
+      pt: "Instituto Federal do Amazonas"
+    area:
+      en: "Software Engineering"
+      pt: "Engenharia de Software"
+    date:
+      start: "2019-02"
+      end: "2023-02"
+    location:
+      en: "Manaus, AM, Brazil"
+      pt: "Manaus, AM"
+
+  - institution:
+      en: "Federal Institute of Amazonas"
+      pt: "Instituto Federal do Amazonas"
+    area:
+      en: "Computer Maintenance and Support"
+      pt: "Manutenção e Suporte em Informática"
+    date:
+      start: "2017-02"
+      end: "2018-07"
+    location:
+      en: "Coari, AM, Brazil"
+      pt: "Coari, AM"
+
+certifications:
+  - institution: "Coodesh"
+    area: "React.js"
+    url: "https://coodesh.com/share/certificate/2a1de050-04ca-11ee-9234-130fd618c65f"
+    date:
+      start: "2023-05"
+      end: "2023-05"
+    score:
+      en: "78.3% of Accuracy"
+      pt: "78,3% de Acertos"
+
+skills:
+  - label:
+      en: "Programming Languages"
+      pt: "Linguagens de Programação"
+    details: "JavaScript, Python, C#"
+  - label:
+      en: "Libraries & Frameworks"
+      pt: "Bibliotecas & Frameworks"
+    details: "React.js, Angular, Vue.js, Next.js, Nuxt.js, TypeScript, jQuery, Styled Components, Tailwind CSS, Bootstrap, Express, Prisma, Socket.io, Nest.js, Django, Flask, Entity Framework, AutoMapper, Moq, xUnit"
+  - label:
+      en: "Databases"
+      pt: "Bancos de Dados"
+    details: "PostgreSQL, MySQL, Microsoft SQL Server, MongoDB"
+  - label:
+      en: "Development Tools"
+      pt: "Ferramentas de Desenvolvimento"
+    details: "Figma, Canva, Postman, DevTools"
+  - label:
+      en: "Testing & Automation"
+      pt: "Testes & Automação"
+    details: "Jest, Selenium, Scrapy"
+  - label:
+      en: "Infrastructure & DevOps"
+      pt: "Infraestrutura & DevOps"
+    details: "GitHub Actions, Azure DevOps, Docker, Ansible, NGINX, RabbitMQ"
+  - label:
+      en: "Soft Skills"
+      pt: "Qualidades Pessoais"
+    details:
+      en: "Analytical, Self-taught, Collaborative, Proactive, Organized, Flexible"
+      pt: "Analítico, Autodidata, Colaborativo, Proativo, Organizado, Flexível"
+
+languages:
+  - label:
+      en: "Portuguese"
+      pt: "Português"
+    level:
+      en: "Native or Fluent (C2)"
+      pt: "Nativo ou Fluente (C2)"
+  - label:
+      en: "English"
+      pt: "Inglês"
+    level:
+      en: "Basic or Elementary (A2)"
+      pt: "Básico ou Elementar (A2)"
