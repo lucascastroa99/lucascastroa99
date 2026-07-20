@@ -1,0 +1,15 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/sync-professional-data.js && node scripts/generate-markdown-readme.js",
+    "sync": "node scripts/sync-professional-data.js",
+    "generate": "node scripts/generate-markdown-readme.js"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4",
+    "yaml": "^2.9.0"
+  }
+}
