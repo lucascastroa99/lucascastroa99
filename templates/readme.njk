@@ -1,0 +1,38 @@
+{%- import "common.njk" as c -%}
+{{- c.languageSwitcher("pt", data.personal) }}
+
+{{ c.header("pt", data.personal, common) }}
+
+## 👨‍💻 Sobre
+
+{{ c.aboutMe("pt", data.resume) }}
+
+## 🛠️ Habilidades
+
+{{ c.techIcons("pt", common, data.resume) }}
+
+## 💼 Experiência
+
+{{ c.experience("pt", data.resume.experience) }}
+
+## 💡 Projetos
+
+{{ c.projects("pt", data.resume.projects) }}
+
+## 🎓 Formação
+
+{{ c.education("pt", data.resume.education) }}
+
+## 📜 Certificações
+
+{{ c.certifications("pt", data.resume.certifications) }}
+
+## 🌍 Idiomas
+
+{{ c.languages("pt", data.resume.languages) }}
+
+## 📊 Estatísticas
+
+{{ c.githubStats(data.personal, common) }}
+
+{{ c.footer("pt") }}
