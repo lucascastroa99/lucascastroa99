@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Curr%C3%ADculo-F5F5F5?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iYmxhY2siIHZpZXdCb3g9IjAgMCAxNiAxNiI%2bPHBhdGggZD0iTTUuNTIzIDEyLjQyNHEuMjEtLjEyNC40NTktLjIzOGE4IDggMCAwIDEtLjQ1LjYwNmMtLjI4LjMzNy0uNDk4LjUxNi0uNjM1LjU3MmwtLjAzNS4wMTJhLjMuMyAwIDAgMS0uMDI2LS4wNDRjLS4wNTYtLjExLS4wNTQtLjIxNi4wNC0uMzYuMTA2LS4xNjUuMzE5LS4zNTQuNjQ3LS41NDhtMi40NTUtMS42NDdxLS4xNzguMDM3LS4zNTYuMDc4YTIxIDIxIDAgMCAwIC41LTEuMDUgMTIgMTIgMCAwIDAgLjUxLjg1OHEtLjMyNi4wNDgtLjY1NC4xMTRtMi41MjUuOTM5YTQgNCAwIDAgMS0uNDM1LS40MXEuMzQ0LjAwNy42MTIuMDU0Yy4zMTcuMDU3LjQ2Ni4xNDcuNTE4LjIwOWEuMS4xIDAgMCAxIC4wMjYuMDY0LjQ0LjQ0IDAgMCAxLS4wNi4yLjMuMyAwIDAgMS0uMDk0LjEyNC4xLjEgMCAwIDEtLjA2OS4wMTVjLS4wOS0uMDAzLS4yNTgtLjA2Ni0uNDk4LS4yNTZNOC4yNzggNi45N2MtLjA0LjI0NC0uMTA4LjUyNC0uMi44MjlhNSA1IDAgMCAxLS4wODktLjM0NmMtLjA3Ni0uMzUzLS4wODctLjYzLS4wNDYtLjgyMi4wMzgtLjE3Ny4xMS0uMjQ4LjE5Ni0uMjgzYS41LjUgMCAwIDEgLjE0NS0uMDRjLjAxMy4wMy4wMjguMDkyLjAzMi4xOThxLjAwOC4xODMtLjAzOC40NjV6Ii8%2bPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAwaDUuMjkzQTEgMSAwIDAgMSAxMCAuMjkzTDEzLjcwNyA0YTEgMSAwIDAgMSAuMjkzLjcwN1YxNGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlYyYTIgMiAwIDAgMSAyLTJtNS41IDEuNXYyYTEgMSAwIDAgMCAxIDFoMnpNNC4xNjUgMTMuNjY4Yy4wOS4xOC4yMy4zNDMuNDM4LjQxOS4yMDcuMDc1LjQxMi4wNC41OC0uMDMuMzE4LS4xMy42MzUtLjQzNi45MjYtLjc4Ni4zMzMtLjQwMS42ODMtLjkyNyAxLjAyMS0xLjUxYTExLjcgMTEuNyAwIDAgMSAxLjk5Ny0uNDA2Yy4zLjM4My42MS43MTMuOTEuOTUuMjguMjIuNjAzLjQwMy45MzQuNDE3YS44Ni44NiAwIDAgMCAuNTEtLjEzOGMuMTU1LS4xMDEuMjctLjI0Ny4zNTQtLjQxNi4wOS0uMTgxLjE0NS0uMzcuMTM4LS41NjNhLjg0Ljg0IDAgMCAwLS4yLS41MThjLS4yMjYtLjI3LS41OTYtLjQtLjk2LS40NjVhNS44IDUuOCAwIDAgMC0xLjMzNS0uMDUgMTEgMTEgMCAwIDEtLjk4LTEuNjg2Yy4yNS0uNjYuNDM3LTEuMjg0LjUyLTEuNzk0LjAzNi0uMjE4LjA1NS0uNDI2LjA0OC0uNjE0YTEuMjQgMS4yNCAwIDAgMC0uMTI3LS41MzguNy43IDAgMCAwLS40NzctLjM2NWMtLjIwMi0uMDQzLS40MSAwLS42MDEuMDc3LS4zNzcuMTUtLjU3Ni40Ny0uNjUxLjgyMy0uMDczLjM0LS4wNC43MzYuMDQ2IDEuMTM2LjA4OC40MDYuMjM4Ljg0OC40MyAxLjI5NWEyMCAyMCAwIDAgMS0xLjA2MiAyLjIyNyA3LjcgNy43IDAgMCAwLTEuNDgyLjY0NWMtLjM3LjIyLS42OTkuNDgtLjg5Ny43ODctLjIxLjMyNi0uMjc1LjcxNC0uMDggMS4xMDMiLz48L3N2Zz4=&logoColor=black" alt="Curr%C3%ADculo">
 </a>
 
-Manaus, AM &nbsp;•&nbsp; (92) 9 8163-8283  
+Manaus, AM &nbsp;•&nbsp; (92) 9 8163-8286
 lucascastroa99.vercel.app &nbsp;•&nbsp; lucascastro.a99@gmail.com &nbsp;•&nbsp; linkedin.com/in/lucascastroa99
 
 </div>
@@ -77,7 +77,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 ## 💼 Experiência
 
 ### Desenvolvedor Frontend Sênior
-**Marttech - Desenvolvimento de Software** | Toledo, PR (Remoto)  
+**Marttech - Desenvolvimento de Software** | Toledo, PR (Remoto)
 *Dezembro 2024 – Março 2026*
 - Levantei requisitos técnicos junto ao cliente, documentei impactos no sistema.
 - Priorizei demandas e organizei sprints no **Azure DevOps**.
@@ -87,7 +87,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 - Refatorei a arquitetura da aplicação, corrigindo problemas de desempenho e usabilidade.
 
 ### Analista de Desenvolvimento Pleno
-**IBrowse Consultoria e Informática** | Porto Alegre, RS (Remoto)  
+**IBrowse Consultoria e Informática** | Porto Alegre, RS (Remoto)
 *Março 2024 – Outubro 2024*
 - Apoiei equipes internas e externas no atendimento de demandas técnicas.
 - Desenvolvi e corrigi funcionalidades em aplicações **Angular**.
@@ -97,7 +97,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 - Revisei código e acompanhei entregas no **ClickUp**, garantindo conformidade com os padrões internos.
 
 ### Desenvolvedor Frontend Angular
-**INOVA - Polo de Inovação IFAM** | Manaus, AM  
+**INOVA - Polo de Inovação IFAM** | Manaus, AM
 *Janeiro 2023 – Fevereiro 2024*
 - Refatorei páginas e componentes **Angular** desatualizados.
 - Criei novas telas e fluxos para ampliar a aplicação.
@@ -107,7 +107,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 - **Orientei 3 alunos** em atividades técnicas, supervisionando entregas e capacitação profissional.
 
 ### Analista de Tecnologia da Informação
-**ClearSale** | São Paulo, SP (Remoto)  
+**ClearSale** | São Paulo, SP (Remoto)
 *Janeiro 2022 – Dezembro 2022*
 - Criei interfaces e componentes em **Vue.js**.
 - Mantive e evoluí funcionalidades em **C#** e **jQuery**.
@@ -117,7 +117,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 - Desenvolvi **testes unitários** para garantir qualidade do código.
 
 ### Desenvolvedor Front-end Vue.js
-**BeeApp** | Primavera do Leste, MT (Remoto)  
+**BeeApp** | Primavera do Leste, MT (Remoto)
 *Junho 2021 – Dezembro 2021*
 - Criei componentes **Vue.js** modulares com **Vuetify**.
 - Adaptei páginas para dispositivos móveis.
@@ -127,7 +127,7 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 - Configurei bibliotecas de componentes de UI.
 
 ### Técnico de Laboratório de Manutenção
-**IFAM - Instituto Federal do Amazonas** | Coari, AM  
+**IFAM - Instituto Federal do Amazonas** | Coari, AM
 *Janeiro 2018 – Junho 2018*
 - Realizei manutenção de computadores, notebooks e servidores.
 - Configurei redes de computadores e **sistemas operacionais Windows/Linux**.
@@ -144,16 +144,16 @@ Desenvolvedor Full Stack com **mais de 5 anos de experiência** no desenvolvimen
 
 ## 🎓 Formação
 
-**Engenharia de Software** | Instituto Federal do Amazonas  
+**Engenharia de Software** | Instituto Federal do Amazonas
 *Manaus, AM | 2019 - 2023*
 
-**Manutenção e Suporte em Informática** | Instituto Federal do Amazonas  
+**Manutenção e Suporte em Informática** | Instituto Federal do Amazonas
 *Coari, AM | 2017 - 2018*
 
 ## 📜 Certificações
 
-**React.js** | Coodesh  
-*Maio 2023*  
+**React.js** | Coodesh
+*Maio 2023*
 78,3% de Acertos | [Ver Certificado](https://coodesh.com/share/certificate/2a1de050-04ca-11ee-9234-130fd618c65f)
 
 ## 🌍 Idiomas
